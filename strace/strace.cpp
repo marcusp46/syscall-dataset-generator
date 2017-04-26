@@ -601,7 +601,7 @@ int main(int argc, char *argv[])
 	sprintf(fullPath, "%sstrace2_%s_%d.out", logPath, main_exe,main_exe_iter);
 	trace2 = fopen(fullPath, "wb");
 
-	sprintf(fullPath, "%sthreads_%s_%d.out", logPath, main_exe,main_exe_iter);
+	sprintf(fullPath, "%sthread_names_%s_%d.out", logPath, main_exe,main_exe_iter);
 	threads = fopen(fullPath, "wb");
 
 	sprintf(fullPath, "%simages_%s_%d.out", logPath, main_exe,main_exe_iter);
@@ -622,13 +622,13 @@ int main(int argc, char *argv[])
 	sprintf(fullPath, "%ssummary_%s_%d.out", logPath, main_exe,main_exe_iter);
 	summary = fopen(fullPath, "wb");
 
-	sprintf(fullPath, "%sarray_dump_%s_%d.out", logPath, main_exe,main_exe_iter);
+	sprintf(fullPath, "%stemporal_%s_%d.out", logPath, main_exe,main_exe_iter);
 	array_dump = fopen(fullPath	, "wb");
 
-	sprintf(fullPath, "%spsh_%s_%d.out", logPath, main_exe,main_exe_iter);
+	sprintf(fullPath, "%sflat_%s_%d.out", logPath, main_exe,main_exe_iter);
 	psh_out = fopen(fullPath,"wb");
 
-	sprintf(fullPath, "%scontext_%s_%d.out", logPath, main_exe,main_exe_iter);
+	sprintf(fullPath, "%sschedule_%s_%d.out", logPath, main_exe,main_exe_iter);
 	context_out = fopen(fullPath, "wb");
 
 	printf("start %d\n",getpid());
