@@ -1,0 +1,1 @@
+C:\Users\mba737\Desktop\pin-2.14-71313-msvc12-windows\pin-2.14-71313-msvc12-windows\pin.exe -p32 C:\Users\mba737\Desktop\pin-2.14-71313-msvc12-windows\pin-2.14-71313-msvc12-windows\ia32\bin\pin.exe  -follow_execv -t "C:\Users\mba737\Desktop\pin-2.14-71313-msvc12-windows\pin-2.14-71313-msvc12-windows\source\tools\strace\Debug\strace.dll" -- %1
